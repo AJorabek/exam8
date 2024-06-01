@@ -16,6 +16,7 @@ export async function getData(token: string, url: string) {
   const resp = await fetch(url, {
     headers: {
       Authorization: `'Bearer ${token}`,
+      "Content-Type": "application/x-www-form-urlencoded",
     },
   });
   const data = await resp.json();
