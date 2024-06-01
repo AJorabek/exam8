@@ -64,9 +64,7 @@ const Layout = () => {
     <ParentEl>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <RouterProvider router={router}>
-      <h2 style={{textAlign:"center"}}>by Jo'rabek Abdurahmonov</h2>
-        </RouterProvider>
+        <RouterProvider router={router}></RouterProvider>
         <MusicPlayer />
       </ThemeProvider>
     </ParentEl>
