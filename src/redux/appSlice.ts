@@ -10,7 +10,7 @@ const initialState = {
     url: "",
     status: "pause",
     image: "",
-    author: [],
+    author: "",
     name: "",
   },
 };
