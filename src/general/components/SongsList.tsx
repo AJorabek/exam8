@@ -11,7 +11,7 @@ const Container = styled.ul`
   border-top: 1px #282828 solid;
   margin-top: 20px;
   display: grid;
-  gap: 6px;
+  gap: 16px;
 `;
 
 const SongsList = () => {
