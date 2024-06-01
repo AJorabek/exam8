@@ -67,6 +67,7 @@ const Layout = () => {
         <RouterProvider router={router}></RouterProvider>
         <MusicPlayer />
       </ThemeProvider>
+      <h2 style={{textAlign:"center"}}>by Jo'rabek Abdurahmonov</h2>
     </ParentEl>
   );
 };
